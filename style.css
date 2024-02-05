@@ -7,7 +7,7 @@
     list-style: none;
 }
 .container{
-margin-left: 10vh;
+    margin-left: 10px;
 }
 body{
     background: #242B33;
@@ -15,7 +15,7 @@ body{
 .text{
     font-style: normal;
     font-weight: normal;
-    font-size: 80vh;
+    font-size: 50px;
     color: white;
 }
 .text_container{
