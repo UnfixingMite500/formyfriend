@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: none;
+    list-style: none;
+}
+.container{
+margin-left: 10vh;
+}
+body{
+    background: #242B33;
+}
+.text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80vh;
+    color: white;
+}
+.text_container{
+    height: 100vh;
+    display: flex;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 1000%;
+    }
+    to {
+      margin-left: 0%;
+    }
+}
